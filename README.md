@@ -13,3 +13,9 @@ Para mantener un ecosistema flotante, fluido y sin fricciones, unificamos el pod
 * **Framework Principal:** React.js / Next.js para un renderizado veloz que flota sobre el cliente.
 * **Estilos Dinámicos:** Tailwind CSS para interfaces responsivas construidas a la velocidad de la luz.
 * **Gestión de Estado:** Zustand o Redux Toolkit para mantener los datos alineados sin importar la gravedad del sistema.
+
+### 2. Backend Orbitall (Capa interna de lógica)
+* **Entorno de Ejecución:** Node.js con TypeScript para un tipado estricto que evita colisiones catastróficas.
+* **Framework de API:** FastAPI o Express.js para rutas de datos aerodinámicas y de alta velocidad.
+* **Seguridad:** JWT (JSON Web Tokens) y Helmet para proteger la órbita de accesos no autorizados.
+
