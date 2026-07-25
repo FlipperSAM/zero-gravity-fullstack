@@ -59,19 +59,19 @@ El proyecto implementa una topología desacoplada gestionada centralizadamente m
 * **Validación de Formularios:** *React Hook Form integrado con esquemas de validación estricta en tiempo de ejecución mediante Zod.*
 
 ### 2. Capa de Lógica de Negocio (Backend)
-* Entorno de Ejecución: Node.js (v22 LTS) operando de forma nativa con TypeScript 5.x bajo configuraciones de tipado estrictas.
-* Framework de API: NestJS para asegurar modularidad, inyección de dependencias y un desacoplamiento efectivo entre componentes de la aplicación.
-* Capa de Persistencia y ORM: Prisma ORM o Drizzle ORM como abstracción de datos con generación automatizada de tipos estáticos en tiempo de compilación.
-* Mensajería Asíncrona: RabbitMQ para la gestión de arquitecturas orientadas a eventos (EDA) y la distribución de tareas pesadas en segundo plano.
+* **Entorno de Ejecución:** *Node.js (v22 LTS) operando de forma nativa con TypeScript 5.x bajo configuraciones de tipado estrictas.*
+* **Framework de API:** *NestJS para asegurar modularidad, inyección de dependencias y un desacoplamiento efectivo entre componentes de la aplicación.*
+* **Capa de Persistencia y ORM:** *Prisma ORM o Drizzle ORM como abstracción de datos con generación automatizada de tipos estáticos en tiempo de compilación.*
+* **Mensajería Asíncrona:** *RabbitMQ para la gestión de arquitecturas orientadas a eventos (EDA) y la distribución de tareas pesadas en segundo plano.*
 
 ### 3. Persistencia de Datos y Caché
-* Base de Datos Relacional: PostgreSQL 16 configurado con un pool de conexiones optimizado a través de PgBouncer para soportar alta concurrencia.
-* Memoria Caché y Mensajería Rápida: Redis Stack para la persistencia de sesiones de usuario, almacenamiento en caché de respuestas HTTP y políticas globales de Rate Limiting.
+* **Base de Datos Relacional:** PostgreSQL 16 configurado con un pool de conexiones optimizado a través de PgBouncer para soportar alta concurrencia.
+* **Memoria Caché y Mensajería Rápida:** Redis Stack para la persistencia de sesiones de usuario, almacenamiento en caché de respuestas HTTP y políticas globales de Rate Limiting.
 
 ### 4. Infraestructura y DevOps
-* Contenedores: Docker y Docker Compose con configuraciones multi-etapa (multi-stage builds) para la optimización y reducción de peso de las imágenes de producción.
-* Integración y Despliegue Continuo (CI/CD): GitHub Actions encargado de la ejecución automática de pruebas unitarias, análisis estático de código y escaneo de vulnerabilidades.
-* Calidad de Código: Implementación obligatoria de ESLint, Prettier y Husky para el bloqueo automatizado de confirmaciones (commits) que no cumplan con los estándares definidos.
+* **Contenedores:** Docker y Docker Compose con configuraciones multi-etapa (multi-stage builds) para la optimización y reducción de peso de las imágenes de producción.
+* **Integración y Despliegue Continuo (CI/CD):** GitHub Actions encargado de la ejecución automática de pruebas unitarias, análisis estático de código y escaneo de vulnerabilidades.
+* **Calidad de Código:** Implementación obligatoria de ESLint, Prettier y Husky para el bloqueo automatizado de confirmaciones (commits) que no cumplan con los estándares definidos.
 
 ---
 
