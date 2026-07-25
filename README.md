@@ -79,10 +79,10 @@ El proyecto implementa una topología desacoplada gestionada centralizadamente m
 
 Para mitigar riesgos informáticos comunes, el sistema incorpora las siguientes directrices de seguridad de forma nativa:
 
-* Protección de Cabeceras: Helmet.js configurado para inyectar políticas como Content Security Policy (CSP), X-Content-Type-Options y Strict-Transport-Security (HSTS).
-* Autenticación Stateless: Flujo de tokens gestionado por JSON Web Tokens (JWT) mediante firmas asimétricas (RS256). Los tokens de acceso se almacenan exclusivamente en memoria, mientras que los tokens de refresco viajan mediante Cookies con directivas HttpOnly, Secure y SameSite=Strict.
-* Mitigación de Ataques de Denegación de Servicio (DDoS): Limitación de tasa de peticiones parametrizada dinámicamente en la capa de Redis.
-* Prevención de Inyecciones: Sanitización activa de payloads entrantes y uso estricto de consultas parametrizadas a través del ORM para evitar inyecciones SQL.
+* **Protección de Cabeceras:** Helmet.js configurado para inyectar políticas como Content Security Policy (CSP), X-Content-Type-Options y Strict-Transport-Security (HSTS).
+* **Autenticación Stateless:** Flujo de tokens gestionado por JSON Web Tokens (JWT) mediante firmas asimétricas (RS256). Los tokens de acceso se almacenan exclusivamente en memoria, mientras que los tokens de refresco viajan mediante Cookies con directivas HttpOnly, Secure y SameSite=Strict.
+* **Mitigación de Ataques de Denegación de Servicio (DDoS):** Limitación de tasa de peticiones parametrizada dinámicamente en la capa de Redis.
+* **Prevención de Inyecciones:** Sanitización activa de payloads entrantes y uso estricto de consultas parametrizadas a través del ORM para evitar inyecciones SQL.
 
 ---
 
