@@ -8,3 +8,8 @@ Aquí consolido las herramientas esenciales que todo desarrollador Full Stack ne
 
 ## La Suite Antigravedad (Herramientas Esenciales)
 Para mantener un ecosistema flotante, fluido y sin fricciones, unificamos el poder de las siguientes tecnologías:
+
+### 1. Frontend Estelar (Capa de Presentación)
+* **Framework Principal:** React.js / Next.js para un renderizado veloz que flota sobre el cliente.
+* **Estilos Dinámicos:** Tailwind CSS para interfaces responsivas construidas a la velocidad de la luz.
+* **Gestión de Estado:** Zustand o Redux Toolkit para mantener los datos alineados sin importar la gravedad del sistema.
