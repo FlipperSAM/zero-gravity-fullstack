@@ -52,11 +52,11 @@ El proyecto implementa una topología desacoplada gestionada centralizadamente m
 ## Ecosistema Tecnológico Unificado
 
 ### 1. Capa de Presentación (Frontend)
-* Framework Principal: Next.js 15 (App Router) optimizado con React Server Components (RSC) para la reducción del tamaño del paquete en el lado del cliente y una renderización inicial óptima.
-* Interfaz de Usuario y Estilos: Tailwind CSS v4 complementado con Shadcn/ui (basado en primitivos de Radix UI) para garantizar accesibilidad bajo el estándar WAI-ARIA.
-* Gestión de Estado: Zustand para la manipulación de estados globales efímeros en memoria, asistido por Immer para mutaciones seguras de estructuras complejas.
-* Sincronización de Datos: TanStack Query v5 (React Query) para la gestión avanzada de caché, revalidación asíncrona en segundo plano y actualizaciones optimistas.
-* Validación de Formularios: React Hook Form integrado con esquemas de validación estricta en tiempo de ejecución mediante Zod.
+* **Framework Principal:** *Next.js 15 (App Router) optimizado con React Server Components (RSC) para la reducción del tamaño del paquete en el lado del cliente y una renderización inicial óptima.*
+* **Interfaz de Usuario y Estilos:** *Tailwind CSS v4 complementado con Shadcn/ui (basado en primitivos de Radix UI) para garantizar accesibilidad bajo el estándar WAI-ARIA.*
+* **Gestión de Estado:** *Zustand para la manipulación de estados globales efímeros en memoria, asistido por Immer para mutaciones seguras de estructuras complejas.*
+* **Sincronización de Datos:** *TanStack Query v5 (React Query) para la gestión avanzada de caché, revalidación asíncrona en segundo plano y actualizaciones optimistas.*
+* **Validación de Formularios:** *React Hook Form integrado con esquemas de validación estricta en tiempo de ejecución mediante Zod.*
 
 ### 2. Capa de Lógica de Negocio (Backend)
 * Entorno de Ejecución: Node.js (v22 LTS) operando de forma nativa con TypeScript 5.x bajo configuraciones de tipado estrictas.
