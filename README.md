@@ -33,7 +33,7 @@ El proyecto implementa una topología desacoplada gestionada centralizadamente m
 
 graph TD
     Client[Cliente Web / Next.js SSR] -->|HTTPS / WSS| Gateway[Nginx Reverse Proxy / Cloudflare]
-    Gateway -->|Enrutamiento de API| API[API Gateway / NestJS Core Engine]
+    Gateway -->|Enrutamiento de API| API[API Gateway / NestJS Core Engine]"
     
     subgraph "Backend Core (TypeScript)"
         API -->|Controllers| UseCases[Capa de Casos de Negocio / Domain]
