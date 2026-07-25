@@ -31,12 +31,11 @@ El proyecto implementa una topología desacoplada gestionada centralizadamente m
 
 ### Diagrama de Interacción de Componentes
 
-```mermaid
 graph TD
     Client[Cliente Web / Next.js SSR] -->|HTTPS / WSS| Gateway[Nginx Reverse Proxy / Cloudflare]
     Gateway -->|Enrutamiento de API| API[API Gateway / NestJS Core Engine]
     
-    subgraph Backend Core (TypeScript)
+    subgraph "Backend Core (TypeScript)"
         API -->|Controllers| UseCases[Capa de Casos de Negocio / Domain]
         UseCases -->|Entities & Mappers| Infra[Infraestructura / Repositorios]
     end
@@ -46,7 +45,7 @@ graph TD
     UseCases -->|Publish Events| Broker[RabbitMQ / Event Bus]
     
     Broker -->|Asynchronous Workers| Worker[Background Jobs / Node-Worker]
-```
+
 
 ---
 
