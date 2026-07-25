@@ -165,14 +165,20 @@ Sincronice el esquema local de la base de datos y genere el cliente de tipos est
 pnpm --filter backend prisma migrate dev
 ```
 
-### 6. Inicialización del Entorno de Desarrollo
+## 6. Inicialización del Entorno de Desarrollo
+
 Inicie el ciclo de ejecución en paralelo para todas las aplicaciones del espacio de trabajo:
+
 ```bash
 pnpm dev
 ```
-* Acceso al Frontend: http://localhost:3000
-* Acceso al API Gateway: http://localhost:8080
-* Documentación de la API (Swagger): http://localhost:8080/api/docs
+
+### Puertos y Endpoints de Acceso
+
+* **Servidor Frontend:** http://localhost:3000
+* **API Gateway Local:** http://localhost:8080
+* **Documentación API (Swagger):** http://localhost:8080/api/docs
+
 
 ---
 
